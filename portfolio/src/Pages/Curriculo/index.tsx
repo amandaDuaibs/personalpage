@@ -1,6 +1,7 @@
-export function Curriculo(){
-    return(
-        <>
-        </>
-    )
-}
+export default function Curriculo() {
+    return (
+      <>
+    
+      </>
+    );
+  }

@@ -1,18 +1,12 @@
-import reportWebVitals from './reportWebVitals';
-import  Router from './Routes/index';
-import ReactDOM from 'react-dom';
 import React from 'react';
-
-import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import 'normalize.css';
+import './index.css';
+import Router from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-reportWebVitals();

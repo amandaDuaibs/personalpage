@@ -1,4 +1,4 @@
-export default function Artigos() {
+export default function Contatos() {
     return (
       <>
     
